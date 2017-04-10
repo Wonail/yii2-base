@@ -17,7 +17,8 @@
     "license": "BSD-3-Clause",
     "require": {
         "bower-asset/animate-css": "*",
-        "bower-asset/jquery-fullscreen-plugin": "*"
+        "bower-asset/jquery-fullscreen-plugin": "*",
+        "bower-asset/jquery-cookie": "*"
     },
     "autoload": {
         "psr-4": {

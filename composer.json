@@ -1,0 +1,27 @@
+{
+    "name": "wonail/yii2-base",
+    "description": "Base library",
+    "keywords": [
+        "yii2",
+        "extension",
+        "wonail"
+    ],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "E-Kevin",
+            "email": "e-kevin@qq.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "require": {
+        "bower-asset/animate-css": "*",
+        "bower-asset/jquery-fullscreen-plugin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wonail\\base\\": ""
+        }
+    },
+}

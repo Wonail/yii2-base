@@ -17,8 +17,10 @@
     "license": "BSD-3-Clause",
     "require": {
         "bower-asset/animate-css": "*",
+        "bower-asset/bootstrap3-dialog": "~1.34",
+        "bower-asset/jquery-cookie": "*",
         "bower-asset/jquery-fullscreen-plugin": "*",
-        "bower-asset/jquery-cookie": "*"
+        "bower-asset/simple-line-icons": "*"
     },
     "autoload": {
         "psr-4": {

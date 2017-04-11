@@ -1,5 +1,5 @@
 <?php
-namespace wonail\base;
+namespace wonail\base\assetBundle;
 
 use yii\web\AssetBundle;
 

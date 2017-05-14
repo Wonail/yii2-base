@@ -20,8 +20,7 @@
         "bower-asset/bootstrap3-dialog": "~1.34",
         "bower-asset/jquery-cookie": "*",
         "bower-asset/jquery-fullscreen-plugin": "*",
-        "bower-asset/simple-line-icons": "*",
-        "bower-asset/toastr": "2.1.1"
+        "bower-asset/simple-line-icons": "*"
     },
     "autoload": {
         "psr-4": {

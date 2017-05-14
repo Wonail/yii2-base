@@ -1,21 +1,21 @@
 /**
- * 扩展wc对象
+ * 扩展wonail对象
  */
 (function ($) {
     /**
      * 构造对象
      * @constructor
      */
-    var Wc = function () {
+    var Wonail = function () {
         var defaultSettings = {};
-        this.settingName = 'wc-settings';
+        this.settingName = 'wn-settings';
         this._settings = JSON.parse(localStorage.getItem(this.settingName)) || defaultSettings;
     };
 
     /**
      * 设置表单的值
      */
-    Wc.prototype.setValue = function (name, value, empty) {
+    Wonail.prototype.setValue = function (name, value, empty) {
         var first = name.substr(0, 1),
             input, i = 0,
             val;
@@ -55,7 +55,7 @@
     /**
      * 计算数组、字符串、对象长度
      */
-    Wc.prototype.count = function (o) {
+    Wonail.prototype.count = function (o) {
         var t = typeof o;
         if (t === 'string') {
             return o.length;
@@ -72,10 +72,10 @@
     /**
      * 本地化储存
      * @example
-     * wc.localStorage.set('sidebar-mini', false);
-     * wc.localStorage.save();
+     * wn.localStorage.set('sidebar-mini', false);
+     * wn.localStorage.save();
      */
-    Wc.prototype.localStorage = {
+    Wonail.prototype.localStorage = {
         save: function () {
             localStorage.setItem(this.settingName, JSON.stringify(this._settings));
             return this;
@@ -92,7 +92,7 @@
     /**
      * cookie操作
      */
-    Wc.prototype.cookie = {
+    Wonail.prototype.cookie = {
         set: function (name, value, expires) {
             if (name === '' || name === undefined) {
                 return false;
@@ -124,7 +124,7 @@
     /**
      * 系统通知组件
      */
-    Wc.prototype.notificationBox = {
+    Wonail.prototype.notificationBox = {
         init: function (waitSecond) {
             toastr.options = {
                 'progressBar': true,
@@ -190,7 +190,7 @@
     /**
      * Url地址操作
      */
-    Wc.prototype.url = {
+    Wonail.prototype.url = {
         // 获取指定参数值
         getQueryString: function (url, param) {
             var str = url.substr(url.indexOf('?') + 1);
@@ -292,6 +292,6 @@
         }
     };
 
-    window.wc = new Wc();
+    window.wn = new Wonail();
 
 })(jQuery);

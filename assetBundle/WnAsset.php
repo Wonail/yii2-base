@@ -17,7 +17,7 @@ class WnAsset extends AssetBundle
     ];
 
     public $depends = [
-        'wonail\base\ToastrAsset'
+        'wonail\base\assetBundle\ToastrAsset'
     ];
 
 }

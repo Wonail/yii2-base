@@ -1,10 +1,10 @@
-/*wc-checkbox*/
-table th .wc-checkbox {
+/*wn-checkbox*/
+table th .wn-checkbox {
     height: 18px;
     line-height: 18px;
 }
 
-.wc-checkbox {
+.wn-checkbox {
     float: left;
     width: 5px;
     height: 20px;
@@ -12,88 +12,88 @@ table th .wc-checkbox {
     text-align: center;
 }
 
-.wc-checkbox label {
+.wn-checkbox label {
     color: #e2e7eb;
     display: block;
     cursor: pointer
 }
 
-.wc-checkbox label:hover {
+.wn-checkbox label:hover {
     color: #707478
 }
 
-.wc-checkbox label input[type=checkbox] {
+.wn-checkbox label input[type=checkbox] {
     display: none
 }
 
-.wc-checkbox label i {
+.wn-checkbox label i {
     font-size: 18px;
     transition: all .2s linear;
     -webkit-transition: all .2s linear;
 }
 
-.wc-checkbox label input[type=checkbox]:checked + .fa:before {
+.wn-checkbox label input[type=checkbox]:checked + .fa:before {
     content: '\f046';
     color: #707478;
 }
 
-/*wc-checkbox-inline*/
-.wc-checkbox-inline, .wc-radio-inline {
+/*wn-checkbox-inline*/
+.wn-checkbox-inline, .wn-radio-inline {
     float: left;
     margin-right: 10px;
     margin-top: 8px;
 }
 
-.wc-checkbox-inline label, .wc-radio-inline label {
+.wn-checkbox-inline label, .wn-radio-inline label {
     font-weight: 100;
     display: block;
     cursor: pointer;
 }
 
-.wc-checkbox-inline label > i, .wc-radio-inline label > i {
+.wn-checkbox-inline label > i, .wn-radio-inline label > i {
     color: #e2e7eb;
     margin-right: 5px;
 }
 
-.wc-checkbox-inline label > i:hover, .wc-radio-inline label > i:hover {
+.wn-checkbox-inline label > i:hover, .wn-radio-inline label > i:hover {
     color: #707478;
     transition: all .2s linear;
     -webkit-transition: all .2s linear;
 }
 
-.wc-checkbox-inline label input[type=checkbox], .wc-radio-inline label input[type=radio] {
+.wn-checkbox-inline label input[type=checkbox], .wn-radio-inline label input[type=radio] {
     display: none
 }
 
-.wc-checkbox-inline label input[type=checkbox]:checked + .fa:before {
+.wn-checkbox-inline label input[type=checkbox]:checked + .fa:before {
     content: '\f046';
     color: #707478;
     margin-right: -2px;
 }
 
-.wc-radio-inline label input[type=radio]:checked + .fa:before {
+.wn-radio-inline label input[type=radio]:checked + .fa:before {
     content: '\f192';
     color: #707478;
 }
 
-/*.wc-checkbox-inline label.success input[type=checkbox]:checked+.fa:before{content:'\f046';color:#00ACAC;margin-right:-3px;}*/
-/*.wc-radio-inline label.success input[type=radio]:checked+.fa:before{content:'\f192';color:#00ACAC;}*/
+/*.wn-checkbox-inline label.success input[type=checkbox]:checked+.fa:before{content:'\f046';color:#00ACAC;margin-right:-3px;}*/
+/*.wn-radio-inline label.success input[type=radio]:checked+.fa:before{content:'\f192';color:#00ACAC;}*/
 /* 颜色 */
-/*.wc-radio-inline label.disabled{cursor:not-allowed;}
-.wc-radio-inline label.primary:hover,.wc-radio-inline label.primary:hover>i,.wc-radio-inline label.primary>i:hover,.wc-radio-inline label.primary input[type=radio]:checked+.fa:before{color:#556b8d;}
-.wc-radio-inline label.inverse:hover,.wc-radio-inline label.inverse:hover>i,.wc-radio-inline label.inverse>i:hover,.wc-radio-inline label.inverse input[type=radio]:checked+.fa:before{color:#2D353C;}
-.wc-radio-inline label.success:hover,.wc-radio-inline label.success:hover>i,.wc-radio-inline label.success>i:hover,.wc-radio-inline label.success input[type=radio]:checked+.fa:before{color:#00ACAC;}
-.wc-radio-inline label.info:hover,.wc-radio-inline label.info:hover>i,.wc-radio-inline label.info>i:hover,.wc-radio-inline label.info input[type=radio]:checked+.fa:before{color:#348FE2;}
-.wc-radio-inline label.warning:hover,.wc-radio-inline label.warning:hover>i,.wc-radio-inline label.warning>i:hover,.wc-radio-inline label.warning input[type=radio]:checked+.fa:before{color:#F59C1A;}
-.wc-radio-inline label.danger:hover,.wc-radio-inline label.danger:hover>i,.wc-radio-inline label.danger>i:hover,.wc-radio-inline label.danger input[type=radio]:checked+.fa:before{color:#FF5B57;}*/
+/*.wn-radio-inline label.disabled{cursor:not-allowed;}
+.wn-radio-inline label.primary:hover,.wn-radio-inline label.primary:hover>i,.wn-radio-inline label.primary>i:hover,.wn-radio-inline label.primary input[type=radio]:checked+.fa:before{color:#556b8d;}
+.wn-radio-inline label.inverse:hover,.wn-radio-inline label.inverse:hover>i,.wn-radio-inline label.inverse>i:hover,.wn-radio-inline label.inverse input[type=radio]:checked+.fa:before{color:#2D353C;}
+.wn-radio-inline label.success:hover,.wn-radio-inline label.success:hover>i,.wn-radio-inline label.success>i:hover,.wn-radio-inline label.success input[type=radio]:checked+.fa:before{color:#00ACAC;}
+.wn-radio-inline label.info:hover,.wn-radio-inline label.info:hover>i,.wn-radio-inline label.info>i:hover,.wn-radio-inline label.info input[type=radio]:checked+.fa:before{color:#348FE2;}
+.wn-radio-inline label.warning:hover,.wn-radio-inline label.warning:hover>i,.wn-radio-inline label.warning>i:hover,.wn-radio-inline label.warning input[type=radio]:checked+.fa:before{color:#F59C1A;}
+.wn-radio-inline label.danger:hover,.wn-radio-inline label.danger:hover>i,.wn-radio-inline label.danger>i:hover,.wn-radio-inline label.danger input[type=radio]:checked+.fa:before{color:#FF5B57;}*/
 /* 颜色 */
-/*.wc-checkbox label.text-muted{color:#909aa0}
-.wc-checkbox label.text-primary{color:#556b8d}
-.wc-checkbox label.text-inverse{color:#2D353C}
-.wc-checkbox label.text-success{color:#00ACAC}
-.wc-checkbox label.text-info{color:#348FE2}
-.wc-checkbox label.text-warning{color:#F59C1A}
-.wc-checkbox label.text-danger{color:#FF5B57}*/
+/*.wn-checkbox label.text-muted{color:#909aa0}
+.wn-checkbox label.text-primary{color:#556b8d}
+.wn-checkbox label.text-inverse{color:#2D353C}
+.wn-checkbox label.text-success{color:#00ACAC}
+.wn-checkbox label.text-info{color:#348FE2}
+.wn-checkbox label.text-warning{color:#F59C1A}
+.wn-checkbox label.text-danger{color:#FF5B57}*/
 
 .height-xs {
     height: 150px

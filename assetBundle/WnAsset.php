@@ -17,6 +17,7 @@ class WnAsset extends AssetBundle
     ];
 
     public $depends = [
+        'yii\web\JqueryAsset',
         'wonail\base\assetBundle\ToastrAsset'
     ];
 

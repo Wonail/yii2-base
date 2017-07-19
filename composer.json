@@ -12,8 +12,9 @@
             "email": "e-kevin@qq.com"
         }
     ],
-    "type": "yii2-extension",
+    "type": "library",
     "license": "BSD-3-Clause",
+    "homepage": "https://github.com/Wonail/yii2-base",
     "require": {
         "bower-asset/animate-css": "*",
         "bower-asset/bootstrap3-dialog": "~1.34",

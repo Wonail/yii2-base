@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 class ParticlegroundAsset extends AssetBundle
 {
 
-    public $sourcePath = '@wonail/base/plugins/particleground-master';
+    public $sourcePath = '@vendor/wonail/yii2-base/plugins/particleground-master';
 
     public $css = [
         'demo/css/style.css',

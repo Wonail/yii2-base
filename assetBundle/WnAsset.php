@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 class WnAsset extends AssetBundle
 {
 
-    public $sourcePath = '@wonail/base/assets';
+    public $sourcePath = '@vendor/wonail/yii2-base/assets';
 
     public $css = [
         'css/wn.css',
